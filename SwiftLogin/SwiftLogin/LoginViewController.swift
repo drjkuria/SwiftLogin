@@ -40,6 +40,10 @@ class LoginViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    passwordTextField.secureTextEntry = true
+    loginActivityIndicator.hidden = true
+    loginActivityIndicator.hidesWhenStopped = true
   }
 
 }
