@@ -59,7 +59,7 @@ class LoginViewController: UIViewController {
         if let value = response.result.value {
           let token = JSON(value)
           self.auth_token = token["token"]
-          print("JSON: \(self.auth_token)")
+          print("Token: \(self.auth_token)")
         }
     }
 
