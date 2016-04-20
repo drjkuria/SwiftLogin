@@ -9,7 +9,7 @@
         <!--Login View Controller-->
         <scene sceneID="2Jf-Sh-GKY">
             <objects>
-                <viewController storyboardIdentifier="LoginView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gPR-07-bCB" customClass="LoginViewController" customModule="SwiftLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginView" title="Login View Controller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gPR-07-bCB" customClass="LoginViewController" customModule="SwiftLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xyx-Cs-85h"/>
                         <viewControllerLayoutGuide type="bottom" id="25h-u3-MvF"/>
