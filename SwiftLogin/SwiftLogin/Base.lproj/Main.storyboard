@@ -44,11 +44,15 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="GMb-N4-EJ9">
+                                <rect key="frame" x="401" y="319" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.2784313725" green="0.7843137255" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="0i7-Vt-B1z" firstAttribute="leading" secondItem="h6W-MR-m2J" secondAttribute="leading" id="06B-FI-xm5"/>
                             <constraint firstItem="0i7-Vt-B1z" firstAttribute="leading" secondItem="SmR-5P-n9b" secondAttribute="leadingMargin" id="Zkq-IV-RWF"/>
+                            <constraint firstAttribute="trailing" secondItem="GMb-N4-EJ9" secondAttribute="trailing" constant="179" id="ZvD-hf-gcK"/>
                             <constraint firstItem="f7P-8G-XeC" firstAttribute="top" secondItem="xyx-Cs-85h" secondAttribute="bottom" constant="44" id="aHC-yn-bL4"/>
                             <constraint firstItem="h6W-MR-m2J" firstAttribute="leading" secondItem="z6T-zo-uU9" secondAttribute="leading" id="aJf-AV-58K"/>
                             <constraint firstItem="h6W-MR-m2J" firstAttribute="top" secondItem="0i7-Vt-B1z" secondAttribute="bottom" constant="8" symbolic="YES" id="cLw-8r-ih7"/>
@@ -57,13 +61,14 @@
                             <constraint firstItem="0i7-Vt-B1z" firstAttribute="trailing" secondItem="h6W-MR-m2J" secondAttribute="trailing" id="lRh-JB-0KM"/>
                             <constraint firstItem="25h-u3-MvF" firstAttribute="top" secondItem="z6T-zo-uU9" secondAttribute="bottom" constant="256" id="n7k-hD-tHk"/>
                             <constraint firstItem="f7P-8G-XeC" firstAttribute="centerX" secondItem="0i7-Vt-B1z" secondAttribute="centerX" id="sLt-nT-5iE"/>
+                            <constraint firstItem="GMb-N4-EJ9" firstAttribute="centerY" secondItem="z6T-zo-uU9" secondAttribute="centerY" id="wen-XR-Oll"/>
                             <constraint firstItem="h6W-MR-m2J" firstAttribute="trailing" secondItem="z6T-zo-uU9" secondAttribute="trailing" id="xkH-MX-Peu"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l3w-cm-jfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="431" y="398"/>
+            <point key="canvasLocation" x="131" y="26"/>
         </scene>
     </scenes>
 </document>
