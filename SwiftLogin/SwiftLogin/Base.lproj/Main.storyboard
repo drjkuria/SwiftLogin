@@ -36,7 +36,7 @@
                                 </state>
                                 <connections>
                                     <action selector="signIn:" destination="gPR-07-bCB" eventType="touchUpInside" id="HOP-9D-YvK"/>
-                                    <segue destination="h0L-OR-hY6" kind="presentation" id="aZt-kp-tK9"/>
+                                    <segue destination="h0L-OR-hY6" kind="presentation" identifier="loginSegue" id="aZt-kp-tK9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7P-8G-XeC">
