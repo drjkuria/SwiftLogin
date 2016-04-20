@@ -10,4 +10,17 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+  @IBOutlet weak var usernameTextField: UITextField!
+  @IBOutlet weak var passwordTextField: UITextField!
+  @IBOutlet weak var loginActivityIndicator: UIActivityIndicatorView!
+
+
+
+  @IBAction func signIn(sender: AnyObject) {
+  }
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
+
 }

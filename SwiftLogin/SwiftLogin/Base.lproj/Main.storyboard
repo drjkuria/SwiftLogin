@@ -34,6 +34,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="signIn:" destination="gPR-07-bCB" eventType="touchUpInside" id="HOP-9D-YvK"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7P-8G-XeC">
                                 <rect key="frame" x="273" y="64" width="54" height="21"/>
@@ -65,6 +68,11 @@
                             <constraint firstItem="h6W-MR-m2J" firstAttribute="trailing" secondItem="z6T-zo-uU9" secondAttribute="trailing" id="xkH-MX-Peu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginActivityIndicator" destination="GMb-N4-EJ9" id="fda-1U-eCj"/>
+                        <outlet property="passwordTextField" destination="h6W-MR-m2J" id="hXP-Hh-mHl"/>
+                        <outlet property="usernameTextField" destination="0i7-Vt-B1z" id="dl0-4n-Nue"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l3w-cm-jfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
