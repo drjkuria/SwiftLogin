@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class LoginViewController: UIViewController {
 
@@ -36,6 +38,31 @@ class LoginViewController: UIViewController {
       login(username!, password: password!)
     }
 
+    fetchToken()
+
+  }
+
+  // fetch auth token
+  let url: String = "http://userservice.staging.tangentmicroservices.com/api-token-auth/"
+  let parameters = ["username": "admin", "password": "admin"]
+
+  var auth_token: JSON = []
+
+  func fetchToken() {
+    Alamofire.request(.POST, url, parameters: parameters)
+      .responseJSON { response in
+        print(response.request)
+        print(response.response)
+        print(response.data)
+        print(response.result)
+
+        if let value = response.result.value {
+          let token = JSON(value)
+          self.auth_token = token["token"]
+          print("JSON: \(self.auth_token)")
+        }
+    }
+
   }
 
   override func viewDidLoad() {
@@ -44,10 +71,10 @@ class LoginViewController: UIViewController {
     passwordTextField.secureTextEntry = true
     loginActivityIndicator.hidden = true
     loginActivityIndicator.hidesWhenStopped = true
+
   }
 
   override func preferredStatusBarStyle() -> UIStatusBarStyle {
     return UIStatusBarStyle.LightContent
   }
-
 }
