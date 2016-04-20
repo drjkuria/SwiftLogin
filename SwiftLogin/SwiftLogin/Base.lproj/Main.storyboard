@@ -82,7 +82,7 @@
         <!--Root View Controller-->
         <scene sceneID="MDc-hS-RYJ">
             <objects>
-                <tableViewController id="ZhR-TP-5Oj" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ProjectsTableView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZhR-TP-5Oj" customClass="ProjectsTableViewController" customModule="SwiftLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="MGk-tF-kkY">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
