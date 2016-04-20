@@ -46,4 +46,8 @@ class LoginViewController: UIViewController {
     loginActivityIndicator.hidesWhenStopped = true
   }
 
+  override func preferredStatusBarStyle() -> UIStatusBarStyle {
+    return UIStatusBarStyle.LightContent
+  }
+
 }
