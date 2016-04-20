@@ -11,5 +11,7 @@ import UIKit
 class ProjectsTableViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    self.title = "Projects"
   }
 }
