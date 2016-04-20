@@ -12,6 +12,7 @@
 		1DBE4D4F1CC72ADE004C14DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBE4D4E1CC72ADE004C14DD /* Assets.xcassets */; };
 		1DBE4D521CC72ADE004C14DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBE4D501CC72ADE004C14DD /* LaunchScreen.storyboard */; };
 		1DBE4D5A1CC72B29004C14DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBE4D591CC72B29004C14DD /* LoginViewController.swift */; };
+		1DBE4D5C1CC73804004C14DD /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBE4D5B1CC73804004C14DD /* ProjectsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1DBE4D511CC72ADE004C14DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DBE4D531CC72ADE004C14DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DBE4D591CC72B29004C14DD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1DBE4D5B1CC73804004C14DD /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				1DBE4D471CC72ADE004C14DD /* AppDelegate.swift */,
+				1DBE4D5B1CC73804004C14DD /* ProjectsTableViewController.swift */,
 				1DBE4D591CC72B29004C14DD /* LoginViewController.swift */,
 				1DBE4D4B1CC72ADE004C14DD /* Main.storyboard */,
 				1DBE4D4E1CC72ADE004C14DD /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				1DBE4D5A1CC72B29004C14DD /* LoginViewController.swift in Sources */,
 				1DBE4D481CC72ADE004C14DD /* AppDelegate.swift in Sources */,
+				1DBE4D5C1CC73804004C14DD /* ProjectsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				1DBE4D581CC72ADE004C14DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
