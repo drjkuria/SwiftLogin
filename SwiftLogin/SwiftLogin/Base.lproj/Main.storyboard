@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="2Jf-Sh-GKY">
             <objects>
-                <viewController id="gPR-07-bCB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gPR-07-bCB" customClass="LoginViewController" customModule="SwiftLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xyx-Cs-85h"/>
                         <viewControllerLayoutGuide type="bottom" id="25h-u3-MvF"/>
